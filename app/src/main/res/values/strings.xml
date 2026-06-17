@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FocusGuard</string>
+    <string name="accessibility_service_name">FocusGuard App Blocker</string>
+    <string name="accessibility_description">Blocks selected distracting apps during focus sessions and can detect inactivity for optional standby clock mode. It does not read messages, passwords or typed text.</string>
+</resources>
