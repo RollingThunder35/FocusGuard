@@ -44,7 +44,15 @@ public class FocusMusicNotificationListener extends NotificationListenerService 
                 || pkg.contains("soundcloud")
                 || pkg.contains("deezer")
                 || pkg.contains("tidal")
-                || pkg.contains("podcast");
+                || pkg.contains("podcast")
+                // Metrolist
+                || pkg.contains("metrolist")
+                // ReVanced YouTube and YouTube Morphe
+                || pkg.contains("re_vanced")
+                || pkg.contains("youtube_morphe")
+                || pkg.contains("com.google.android.youtube")
+                // Other YouTube variants
+                || pkg.contains("music.youtube");
     }
 
     private String appLabel(String packageName) {
